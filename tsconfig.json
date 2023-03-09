@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./run",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@atom/*": [
+        "app/atom/*"
+      ],
+      "@decorators": [
+        "app/decorators"
+      ],
+      "@decorators/*": [
+        "app/decorators/*"
+      ],
+      "@filter": [
+        "app/filter"
+      ],
+      "@filter/*": [
+        "app/filter/*"
+      ],
+      "@hooks": [
+        "app/hooks"
+      ],
+      "@hooks/*": [
+        "app/hooks/*"
+      ],
+      "@interfaces": [
+        "app/interfaces"
+      ],
+      "@interfaces/*": [
+        "app/interfaces/*"
+      ],
+      "@middleware": [
+        "app/middleware"
+      ],
+      "@middleware/*": [
+        "app/middleware/*"
+      ],
+      "@modules": [
+        "app/modules"
+      ],
+      "@modules/*": [
+        "app/modules/*"
+      ]
+    }
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "run"
+  ]
+}
